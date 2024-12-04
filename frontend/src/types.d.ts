@@ -9,10 +9,6 @@ export interface FormDecode {
   password: string;
 }
 
-export interface DecodeResponse {
-  decoded: string;
-}
-
 export interface FormEncode {
   encoded: string;
   password: string;
