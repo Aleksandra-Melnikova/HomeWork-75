@@ -44,7 +44,7 @@ const ProductForm = () => {
         fetchEncode({ encoded: form.encoded, password: form.password }),
       );
     } else {
-      toast.error("Заполните необходимые поля");
+      toast.error("Fill in the required fields");
     }
   };
 
@@ -54,7 +54,7 @@ const ProductForm = () => {
         fetchDecode({ decoded: form.decoded, password: form.password }),
       );
     } else {
-      toast.error("Заполните необходимые поля");
+      toast.error("Fill in the required fields");
     }
   };
 
