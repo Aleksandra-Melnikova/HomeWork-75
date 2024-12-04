@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { Button, CircularProgress, TextField } from "@mui/material";
+import {Button, CircularProgress, TextField} from "@mui/material";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import Grid from "@mui/material/Grid2";
 import { IForm } from "../../types";
@@ -70,7 +70,7 @@ const ProductForm = () => {
     <>
       {isEncodeLoading || isDecodeLoading ? (
         <>
-          <CircularProgress />
+          <Grid container size={2} marginTop={10} justifyContent={'center'} ><CircularProgress/></Grid>
         </>
       ) : (
         <form autoComplete="off">
